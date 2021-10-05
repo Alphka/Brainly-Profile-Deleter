@@ -1,0 +1,32 @@
+{
+	"name": "brainly-profile-deleter",
+	"author": "Alphka",
+	"license": "MIT",
+	"version": "1.0.0",
+	"scripts": {
+		"start": "ts-node -r tsconfig-paths/register ./src/index.ts",
+		"watch": "ts-node-dev -r tsconfig-paths/register ./src/index.ts"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Alphka/Brainly-Profile-Deleter.git"
+	},
+	"keywords": [
+		"brainly"
+	],
+	"bugs": {
+		"url": "https://github.com/Alphka/Brainly-Profile-Deleter/issues"
+	},
+	"homepage": "https://github.com/Alphka/Brainly-Profile-Deleter#readme",
+	"devDependencies": {
+		"@types/node": "^16.9.1",
+		"ts-node": "^10.2.1",
+		"ts-node-dev": "^1.1.8",
+		"tsconfig-paths": "^3.11.0",
+		"typescript": "^4.4.3"
+	},
+	"dependencies": {
+		"axios": "^0.21.4",
+		"dotenv": "^10.0.0"
+	}
+}

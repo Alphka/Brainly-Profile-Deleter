@@ -1,0 +1,38 @@
+{
+	"compilerOptions": {
+		"module": "CommonJS",
+		"target": "ESNext",
+		"moduleResolution": "node",
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"allowUnreachableCode": false,
+		"resolveJsonModule": true,
+		"strict": true,
+		"allowJs": true,
+		"checkJs": false,
+		"sourceMap": true,
+		"removeComments": true,
+		"alwaysStrict": true,
+		"baseUrl": ".",
+		"outDir": "./src",
+		"paths": {
+			"@controllers": ["./src/controllers/index.ts"],
+			"@helpers": ["./src/helpers/index.ts"],
+			"@typings/*": ["./typings/*"]
+		},
+		"typeRoots": [
+			"./node_modules/@types",
+			"./typings"
+		],
+		"lib": [
+			"ESNext"
+		]
+	},
+	"include": [
+		"./src",
+		"./typings"
+	],
+	"exclude": [
+		"node_modules"
+	]
+}
